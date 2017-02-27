@@ -14,6 +14,6 @@ Numbers in the vector data that lie outside the long interval [x1, xN) are calle
 
 Function hyst will also produce a plot. The plot itself will show N − 1 rectangles aligned with the coordinate axes: for each k, rectangle number k will capture the (x, y) points satisfying
 
-\begin(x_k \leq x< x_k_+_1, 0\leq y\leq counts(k)\end
+x_k <= x< x_(k+1), 0 <= y <= counts(k)
 
 

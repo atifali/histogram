@@ -1,8 +1,7 @@
 function counts = hyst(data,nodes)
 
-% Name: Atif Shoukat Ali 
-% Student# 45538139
-% MECH 2 Section D
+% Author: Atif Shoukat Ali 
+% Email: atif@atifali.ca
 
 % input checking: detects whether the input vector nodes has 2 or more elements or not
 if length(nodes) < 2    

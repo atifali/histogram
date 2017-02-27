@@ -12,8 +12,6 @@ counts: will be a row vector with N − 1 elements, evaluated and returned by hy
 
 Numbers in the vector data that lie outside the long interval [x1, xN) are called outliers. If there are any outliers, function hyst will print a warning message that includes the number of outliers detected.
 
-Function hyst will also produce a plot. The plot itself will show N − 1 rectangles aligned with the coordinate axes: for each k, rectangle number k will capture the (x, y) points satisfying
-
-x_k <= x< x_(k+1), 0 <= y <= counts(k)
+Function hyst will also produce a plot. The plot itself will show N − 1 rectangles aligned with the coordinate axes: for each k, rectangle number k will capture the (x, y) points satisfying, x values for the kth bin are upto but not including the next bins start value.
 
 

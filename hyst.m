@@ -41,7 +41,7 @@ else
         fill([nodes(k) nodes(k) nodes(k+1) nodes(k+1)], [0 counts(k) counts(k) 0], 'k');
         hold on;
     end
-    title(sprintf('Histogram for %s values [ALI]', inputname(1)));
+    title(sprintf('Histogram for %s values', inputname(1)));
     xlabel('Data Value');
     ylabel('Count');
     hold off;
